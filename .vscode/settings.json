@@ -1,0 +1,34 @@
+{
+  "eslint.validate": ["javascript", "javascriptreact", "svelte"],
+  "svelte.plugin.svelte.format.enable": false,
+  "[svelte]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": [
+      "source.fixAll.format",
+      "source.fixAll.eslint"
+    ]
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": [
+      "source.fixAll.format",
+      "source.fixAll.eslint"
+    ]
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "css.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "Svelte": "html"
+  }
+}
